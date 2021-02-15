@@ -1,0 +1,28 @@
+{
+  "name": "grid",
+  "version": "0.0.1",
+  "description": "Crossword solving interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindofmatthew/grid.git"
+  },
+  "author": "Matthew Kaney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mindofmatthew/grid/issues"
+  },
+  "homepage": "https://github.com/mindofmatthew/grid#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.596"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
