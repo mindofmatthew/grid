@@ -30,11 +30,9 @@
     "typescript": "^4.1.5"
   },
   "dependencies": {
-    "@confuzzle/readpuz": "^1.0.1",
     "@dylanarmstrong/puz": "^0.0.7",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
-    "puzjs": "^1.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
