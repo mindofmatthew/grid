@@ -4,20 +4,20 @@ interface Word {
   len: number;
 }
 
+export interface CellData {
+  across: Word;
+  down: Word;
+  cell: number;
+  clueIndex: number;
+  isBlack: boolean;
+  isStart: boolean;
+}
+
 export interface Puzzle {
   author: string;
   clues: string[];
   copyright: string;
-  grid: Array<
-    Array<{
-      across: Word;
-      down: Word;
-      cell: number;
-      clueIndex: number;
-      isBlack: boolean;
-      isStart: boolean;
-    }>
-  >;
+  grid: CellData[][];
   header: unknown;
   solution: number[];
   title: string;
