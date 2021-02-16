@@ -17,16 +17,24 @@
   },
   "homepage": "https://github.com/mindofmatthew/grid#readme",
   "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.598",
     "@parcel/optimizer-htmlnano": "^2.0.0-nightly.598",
+    "@parcel/packager-css": "^2.0.0-nightly.598",
     "@parcel/packager-html": "^2.0.0-nightly.598",
+    "@parcel/transformer-css": "^2.0.0-nightly.598",
     "@parcel/transformer-html": "^2.0.0-nightly.598",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.598",
     "@parcel/transformer-posthtml": "^2.0.0-nightly.598",
     "parcel": "^2.0.0-nightly.596",
+    "postcss": "^8.2.6",
     "typescript": "^4.1.5"
   },
   "dependencies": {
+    "@confuzzle/readpuz": "^1.0.1",
+    "@dylanarmstrong/puz": "^0.0.7",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "puzjs": "^1.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
